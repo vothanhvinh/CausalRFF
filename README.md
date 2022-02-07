@@ -212,18 +212,18 @@ _**Synthetic datasets**_
 
 **Federated causal inference analysis**
 
-<img src="figures/fig3.jpg" width="680">
-<img src="figures/fig4.jpg" width="680">
-<img src="figures/fig5.jpg" width="680">
+<img src="figures/fg3.jpg" width="680">
+<img src="figures/fg4.jpg" width="680">
+<img src="figures/fg5.jpg" width="680">
 
 
 **Compare with baselines on synthetic datasets**
 
-<img src="https://github.com/MEDCOMP/RFCE/blob/main/source_code/figures/table1.png" width="680">
+<img src="figures/tb1.png" width="680">
 
 ***
 
-<img src="https://github.com/MEDCOMP/RFCE/blob/main/source_code/figures/table2.png" width="680">
+<img src="figures/tb2.png" width="680">
 
 <br />
 
@@ -231,4 +231,4 @@ _**Synthetic datasets**_
 
 _**IHDP dataset**_
 
-<img src="https://github.com/MEDCOMP/RFCE/blob/main/source_code/figures/table3.png" width="680">
+<img src="figures/tb3.png" width="680">
