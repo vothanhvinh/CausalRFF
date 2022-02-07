@@ -212,18 +212,18 @@ _**Synthetic datasets**_
 
 **Federated causal inference analysis**
 
-<img src="figures/fg3.jpg" width="480">
-<img src="figures/fg4.jpg" width="480">
-<img src="figures/fg5.jpg" width="480">
+<img src="figures/fg3.jpg" width="280">
+<img src="figures/fg4.jpg" width="280">
+<img src="figures/fg5.jpg" width="280">
 
 
 **Compare with baselines on synthetic datasets**
 
-<img src="figures/tb1.jpg" width="680">
+<img src="figures/tb1.jpg" width="280">
 
 ***
 
-<img src="figures/tb2.jpg" width="680">
+<img src="figures/tb2.jpg" width="280">
 
 <br />
 
@@ -231,4 +231,4 @@ _**Synthetic datasets**_
 
 _**IHDP dataset**_
 
-<img src="figures/tb3.jpg" width="680">
+<img src="figures/tb3.jpg" width="280">
