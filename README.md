@@ -1,4 +1,4 @@
-# Random Fourier Features for Federated Learning of Causal Effects
+# An Adaptive Kernel Approach to Federated Learning of Heterogeneous Causal Effects
 
 ## Table of Contents
 - [Requirements](#requirements)
