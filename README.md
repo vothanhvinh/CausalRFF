@@ -14,7 +14,7 @@
 
 
 ## Requirements
-This package has been tested on:
+This code has been tested on:
 ```
 pytorch==1.8.1+cu101
 ```
