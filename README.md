@@ -1,6 +1,6 @@
 # An Adaptive Kernel Approach to Federated Learning of Heterogeneous Causal Effects
 
-Vo, T. V., Bhattacharyya, A., Lee, Y., & Leong, T. Y. (2022). An Adaptive Kernel Approach to Federated Learning of Heterogeneous Causal Effects. The 36th Conference on Neural Information Processing Systems (**NeurIPS 2022**).
+Vo, T. V., Bhattacharyya, A., Lee, Y., & Leong, T. Y. (2022). An Adaptive Kernel Approach to Federated Learning of Heterogeneous Causal Effects. *The 36th Conference on Neural Information Processing Systems* (**NeurIPS 2022**).
 
 Please cite:
 
