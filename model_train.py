@@ -47,7 +47,11 @@ def trainW(train_x, train_w, n_sources, source_ranges, D=100, training_iter=200,
     loss_server = model_server.loss(reg=reg)
     optimizer_server.zero_grad()
     loss_server.backward() # The purpuse of this line is to allocate memory for gradient of each parameter, i.e param.grad as below
-    optimizer_server.zero_grad()
+    
+    # The following for loop replaced the previous command optimizer_server.zero_grad() to make it work for the new version of pytorch
+    for key, param in model_server.named_parameters():  
+      param.grad.zero_()
+
     for idx in range(n_sources):
       grad_dict_source = {key:param.grad for key, param in model_sources[idx].named_parameters()} # store gradients to grad_dict_source
       
@@ -139,7 +143,11 @@ def trainY(train_x, train_y, train_w, n_sources, source_ranges, D=100, is_binary
     loss_server = model_server.loss(reg_beta=reg_beta,reg_sig=reg_sig, is_binary=is_binary)
     optimizer_server.zero_grad()
     loss_server.backward() # The purpuse of this line is to allocate memory for gradient of each parameter, i.e param.grad as below
-    optimizer_server.zero_grad()
+    
+    # The following for loop replaced the previous command optimizer_server.zero_grad() to make it work for the new version of pytorch
+    for key, param in model_server.named_parameters():  
+      param.grad.zero_()
+      
     for idx in range(n_sources):
       grad_dict_source = {key:param.grad for key, param in model_sources[idx].named_parameters()} # store gradients to grad_dict_source
       
@@ -246,7 +254,11 @@ def trainZY(train_x, train_y, train_w, n_sources, source_ranges, feats_binary=No
     loss_server = model_server.loss(reg_beta=reg_beta, is_binary=is_binary)
     optimizer_server.zero_grad()
     loss_server.backward() # The purpuse of this line is to allocate memory for gradient of each parameter, i.e param.grad as below
-    optimizer_server.zero_grad()
+    
+    # The following for loop replaced the previous command optimizer_server.zero_grad() to make it work for the new version of pytorch
+    for key, param in model_server.named_parameters():  
+      param.grad.zero_()
+      
     for idx in range(n_sources):
       grad_dict_source = {key:param.grad for key, param in model_sources[idx].named_parameters()} # store gradients to grad_dict_source
       
