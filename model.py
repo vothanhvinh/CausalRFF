@@ -240,7 +240,7 @@ class ModelZY(torch.nn.Module):
 
     self.betay0 = torch.nn.Parameter(torch.rand((2*self.D,self.n_sources)))
     self.betay1 = torch.nn.Parameter(torch.rand((2*self.D,self.n_sources)))
-    self.sigma_y_logit = torch.nn.Parameter(torch.tensor(0.0))
+    # self.sigma_y_logit = torch.nn.Parameter(torch.tensor(0.0))
 
     self.betaw = torch.nn.Parameter(torch.rand((2*self.D,self.n_sources)))
     self.betax = torch.nn.Parameter(torch.rand((2*self.D,x.shape[1],self.n_sources)))
