@@ -12,6 +12,14 @@ Please cite:
   year={2022}
 }
 ```
+and
+```
+@article{vo2024federated,
+  title={Federated Causal Inference from Observational Data},
+  author={Vo, Thanh Vinh and Lee, Young and Leong, Tze-Yun},
+  journal={arXiv preprint arXiv:2308.13047},
+  year={2024}
+}
 
 
 ## Table of Contents
