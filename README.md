@@ -20,6 +20,7 @@ and
   journal={arXiv preprint arXiv:2308.13047},
   year={2024}
 }
+```
 
 
 ## Table of Contents
