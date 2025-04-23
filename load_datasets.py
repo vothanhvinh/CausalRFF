@@ -71,7 +71,7 @@ class IHDP(object):
   def __init__(self,use_one_hot=False):
     self.n_sources = 3
     self.source_size = 249
-    self.n_replicates = 8
+    self.n_replicates = 10
     self.train_size = 50
     self.test_size = 100
     self.val_size = 99
